@@ -8,7 +8,6 @@ urlpatterns = [
     path('', LoginView.as_view(), name='login'),
     path('api/login/', LoginAPIView.as_view(), name='api_login'),
     path('dashboard/', DashboardView.as_view(), name='dashboard'),
-
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('api/user/', UserDetailView.as_view(), name='user-detail'),
 
