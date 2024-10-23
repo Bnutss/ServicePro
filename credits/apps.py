@@ -4,4 +4,4 @@ from django.apps import AppConfig
 class CreditsConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
     name = 'credits'
-    verbose_name = 'Хамкор Pro Сервис'
+    verbose_name = 'HAMKOR SERVICE PRO'
